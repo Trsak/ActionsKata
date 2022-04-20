@@ -1,0 +1,16 @@
+name: Dotnet
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome
+        run: echo "Welcome!"
+
